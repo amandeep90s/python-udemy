@@ -25,3 +25,18 @@ print(f"Chai: {chai_ingredients}")
 sugar_levels = [1, 2, 3, 4, 5]
 print(f"Maximum sugar level: {max(sugar_levels)}")
 print(f"Minimum sugar level: {min(sugar_levels)}")
+
+base_liquid = ["water", "milk"]
+extra_flavor = ["ginger"]
+
+# New method for merging two lists
+full_liquid_mix = base_liquid + extra_flavor
+print(f"Liquid mix: {full_liquid_mix}")
+
+strong_brew = ["black tea", "water"] * 3
+print(f"Strong brew: {strong_brew}")
+
+# bytearray returned new array integers 0 - 256
+raw_spice_data = bytearray(b"CINNAMON")
+raw_spice_data = raw_spice_data.replace(b"CINNA", b"CARD")
+print(f"Bytes: {raw_spice_data}")
