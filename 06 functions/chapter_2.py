@@ -14,3 +14,5 @@ def generate_report():
     filter_valid_sales()
     summarize_the_data()
     print("Report is ready")
+
+generate_report()
